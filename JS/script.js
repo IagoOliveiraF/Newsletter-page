@@ -16,7 +16,7 @@ function whenLoadingThePage() {
             inputEmail.classList.remove('container_newsletter_section_content_form_inputEmailError')
             messageErrorEmail.classList.remove('errorMessageShow')
             sessionStorage.setItem('email', valueOfInput)
-            window.location.href = "http://127.0.0.1:5500/sucessMessage.html?email="
+            window.location.href = "./sucessMessage.html"
 
           
         }
