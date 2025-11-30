@@ -1,0 +1,121 @@
+/*==========================GLOBAL=========================*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+    --Blue800: hsl(234, 29%, 20%);
+    --Blue700: hsl(235, 18%, 26%);
+    --Grey: hsl(0, 0%, 58%);
+    --White: hsl(0, 0%, 100%);
+    --primaryRed: hsl(4, 100%, 67%);
+    /*FONT
+    .roboto-<uniquifier> {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    }
+
+    */
+
+}
+
+/*==========================BODY=========================*/
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--Blue700);
+}
+
+/*=========================CONTAINER_NEWSLETTER_SUCESS_MESSAGE==========================*/
+.container_newsletter_sucess_message {
+    width: min(37.5rem, 100%);
+    font-family: "Roboto", sans-serif;
+    background-color: var(--White);
+    padding: 2rem;
+
+}
+
+
+.container_newsletter_sucess_message img {
+    margin-top: 12.5rem;
+}
+
+.container_newsletter_sucess_message h1 {
+    color: var(--Blue800);
+    font-size: 4rem;
+    padding-block: 4rem;
+}
+
+.container_newsletter_sucess_message p {
+    color: var(--Blue700);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+}
+
+.container_newsletter_sucess_message a {
+    display: block;
+    text-decoration: none;
+    padding: 1.8rem;
+    border-radius: 10px;
+    border: solid 1px transparent;
+    background-color: var(--Blue800);
+    color: var(--White);
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: ease 0.3s;
+    width: 100%;
+    margin-top: 25rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+
+.container_newsletter_sucess_message a:hover {
+    background-color: var(--primaryRed);
+    transition: ease 0.3s;
+
+}
+
+@media (min-width:700px) {
+
+    /*==========================CONTAINER_NEWSLETTER-mobileFisrt=========================*/
+    .container_newsletter_sucess_message {
+        width: min(52.8rem, 100%);
+        padding:6rem;
+        border-radius: 25px;
+     
+    }
+
+    .container_newsletter_sucess_message img {
+        margin-top: 0rem;
+    }
+
+    .container_newsletter_sucess_message h1 {
+    color: var(--Blue800);
+    font-size: 5rem;
+    padding-block: 4rem;
+}
+
+
+    /*==========================WRAPPER=========================*/
+    .container_newsletter_sucess_message a {
+        margin-top: 4rem;
+        margin-bottom: 0rem;
+
+
+    }
+
+}
