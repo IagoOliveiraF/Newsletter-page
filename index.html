@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body onload="whenLoadingThePage()">
 
 
   <main class="container_newsletter">
@@ -34,7 +34,10 @@
         </ul>
         <div class="container_newsletter_section_content_form">
           <form action="./sucessMessage.html">
-            <label for="email"> Email address</label>
+            <div>
+              <label for="email"> Email address</label>
+              <p id="errorMessage" class="errorMessage">Valid email required</p>
+            </div>
             <input type="email" name="email" placeholder="email@company.com" class="container_newsletter_section_content_form_inputEmail">
             <input type="submit" value="Subscribe to monthly newsletter" class="container_newsletter_section_content_form_inputButton">
           </form>
@@ -44,6 +47,7 @@
   </main>
 
 
+  <script src="./JS/script.js"></script>
 </body>
 
 </html>

@@ -105,14 +105,38 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 4rem;
-    gap: 2.5rem;
+}
+
+.container_newsletter_section_content_form form div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#errorMessage {
+    font-size: 1.2rem;
+    color: var(--primaryRed);
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    
+}
+
+.errorMessage{
+    display: none;
+}
+
+
+.errorMessageShow{
+    display: block;
 }
 
 .container_newsletter_section_content_form form label {
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
     font-size: 1.2rem;
     color: var(--Blue800);
     font-weight: 900;
+
 }
 
 form .container_newsletter_section_content_form_inputEmail {
@@ -122,6 +146,16 @@ form .container_newsletter_section_content_form_inputEmail {
     outline: var(--Grey);
     cursor: pointer;
 }
+
+
+/*====================ERROR_EMAIL_INPUT===================*/
+form .container_newsletter_section_content_form_inputEmailError {
+    border: solid 1px var(--primaryRed);
+    background-color:hsl(0, 100%, 91%);
+    color: var(--primaryRed); 
+}
+
+
 
 form .container_newsletter_section_content_form_inputButton {
     padding: 1.8rem;
@@ -133,6 +167,7 @@ form .container_newsletter_section_content_form_inputButton {
     font-weight: 600;
     cursor: pointer;
     transition: ease 0.3s;
+    margin-top: 2.5rem;
 
 }
 
