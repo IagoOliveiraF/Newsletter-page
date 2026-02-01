@@ -231,10 +231,6 @@ form .container_newsletter_section_content_form_inputButton:hover {
 
     }
 
-    .container_newsletter_section_content .container_newsletter_section_content_form form {
-        gap: 2rem;
-    }
-
     /*==========================CONTAINER_NEWSLETTER_ASIDE_IMAGE=========================*/
     .container_newsletter .wrapper .container_newsletter_background_image {
         width: min(40rem, 100%);
