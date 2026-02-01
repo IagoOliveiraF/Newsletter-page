@@ -17,16 +17,16 @@ Esses desafios servem para o estudo e auto aprimoramento nas habilidades de dese
 
 Este foi um desenvolvimento de um projeto simples de baixa complexidade.
 
-### Acesse o projeto, clicando neste link: Em andamento
-### Página do Desafio: https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm
+### Acesse o projeto, clicando neste link: [Link do projeto](https://iagooliveiraf.github.io/Newsletter-page/)
+### Página do Desafio: https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv
 
 
 
 ## Screenshot
 
 ###  Versão Desktop
-Em Andamento
+[Versão_Desktop](./Projeto_completo/Versão%20Desktop%20.png)
 
 
 ###  Versão Mobile
-Em Andamento
+[Versão_Mobile](./Projeto_completo/Versão%20Mobile.png)
