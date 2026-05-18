@@ -1,4 +1,4 @@
-# Este é um desafio do FrontendMentor - Recipe Page (Newbie)
+# Este é um desafio do FrontendMentor - Newsletter Page (Newbie)
 
 Esses desafios servem para o estudo e auto aprimoramento nas habilidades de desenvolvimento Front-End.
 
